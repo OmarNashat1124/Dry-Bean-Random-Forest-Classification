@@ -1,4 +1,4 @@
-# 🫘 Dry Bean Classification Project
+# Dry Bean Classification Project
 
 This project trains and evaluates a machine learning model to classify dry beans using numerical features. It handles data preprocessing (skewness correction and scaling) directly inside the model pipeline.
 
@@ -43,7 +43,7 @@ python main.py
 
 ---
 
-## 🧩 Preprocessing Pipeline
+##  Preprocessing Pipeline
 
 The numeric preprocessing inside the model pipeline includes:
 1. **PowerTransformer (Yeo–Johnson)** → Fixes skewed distributions.  
@@ -53,7 +53,7 @@ This ensures the model works optimally even when the raw features are not normal
 
 ---
 
-## 📊 Output
+## Output
 
 After running `main.py`, you’ll see:
 
